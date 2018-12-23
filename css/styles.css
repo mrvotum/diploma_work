@@ -1,16 +1,120 @@
-body {
-		margin: 0;
-		padding: 0;
+body{
+	margin: 0;
+	padding: 0;
+	font-family: OpenSans-Regular;
 }
 
-.header__button {
-	display: flex;
-	flex-wrap: wrap;
-	width: 311px;
-	background-color: #5e42b0;
-	border-radius: 100px;
-	color: #fff;
+.header{
+	background-image: url(../img/football_767.jpg);
+	background-size: cover;
+
+	width: 100%;
+	height: 568px;
 }
-.header__button > .icon {
-	width: 48px;
+.header:before{
+	content: "";
+	position: absolute;
+	background-color: rgba(8, 21, 66, .8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 568px;
+}
+
+.header__container{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	color: #fff;
+	text-transform: uppercase;
+	height: 100%;
+	justify-content: space-between;
+	font-size: 28px;
+}
+
+.logo-text{
+	width: 134px;
+	margin: 33px calc((100% - 134px)/2) 105px;
+	text-align: center;
+	filter: invert(100%);
+}
+
+.slogan__container{
+	align-self: center;
+}
+.header__slogan{
+	font-family: OpenSans-Bold;
+}
+.part-1{
+	margin-left: 0.7em; /* 20px; */
+}
+.part-2{
+	margin-top: 0.7em; /* 20px; */
+	margin-left: 2.3em; /* 65px */
+	margin-bottom: 3.4em; /* 95px */
+}
+
+
+.button_store
+{
+	font: inherit;
+	font-size: 10px; /* 10px ----- = 1em */
+
+	display: flex;
+
+	min-height: 3.5em;
+	margin-right: 2em;
+	margin-bottom: 1.5em;
+	margin-left: 2em;
+	padding: 0;
+
+	text-decoration: none;
+
+	color: inherit;
+	border: none;
+	border-radius: 5em;
+	background-color: #5e42b0;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.button_store:last-child{
+	margin-bottom: 8.5em;
+}
+.button-store__button-icon{
+	width: 2em;
+	display: inline-block;
+	margin-right: 0.9em;
+}
+.button-icon{
+	width: 100%;
+	filter: invert(100%);
+}
+.button_store__wrapper{
+	display: flex;
+	flex-direction: column;
+}
+.button_store__button-label{
+	height: ;
+}
+.up{
+}
+.down{
+	font-family: OpenSans-Bold;
+}
+
+@font-face {
+	/*название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)*/ 
+	font-family: "OpenSans-Regular"; 
+	/*адрес шрифта и тип*/ 
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
+}
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("../fonts/OpenSans-Bold.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal; 
 }

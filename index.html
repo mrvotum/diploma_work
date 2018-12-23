@@ -2,42 +2,40 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/styles.css">
-	<title>Document</title>
+	<title>Surface</title>
 </head>
 <body>
-	<header>
+	<header class="header">
 		<div class="header__container">
-			<img src="svg/surface_logo_text.svg" class="" alt="Surface logo">
-			<div class="download_buttons__header"></div>
-			<h1 class="header__slogan">Be recruied</h1>
-			<h1 class="header__slogan">Play college sports</h1>
-
-			<div class="header__buttons_holder">
-				<a class="header__button" href="#">
-					<div class="icon">
-						<img src="svg/apple_logo_black.svg" alt="Apple logo">
-					</div>
-					<div class="button__up_text">
-						Download on the
-					</div>
-					<div class="button__down_text">
-						App store
-					</div>
-				</a> 
-				<!--<a class="header__button" href="#">
-					<div class="icon">
-						<img src="svg/google-play.svg" alt="Google-play logo">
-					</div>
-					<div class="button__up_text">
-						Get it on
-					</div>
-					<div class="button__down_text">
-						Google play
-					</div>
-				</a> -->
+			<img src="svg/surface_logo_text.svg" alt="surface logo" class="logo-text">
+			<div class="slogan__container">
+				<div class="header__slogan part-1">be recruited</div>
+				<div class="header__slogan part-2">play college sports</div>
 			</div>
 
+			<div class="button__container">
+				<a href="#" class="button_store">
+					<span class="button-store__button-icon">
+						<img src="svg/apple_logo_black.svg" alt="app store" class="button-icon">
+					</span>
+					<span class="button_store__wrapper">
+						<span class="button_store__button-label up">download on the</span>
+						<span class="button_store__button-label down">app store</span>
+					</span>
+				</a>
+
+				<a href="#" class="button_store">
+					<span class="button-store__button-icon">
+						<img src="svg/google-play.svg" alt="google play" class="button-icon">
+					</span>
+					<span class="button_store__wrapper">
+						<span class="button_store__button-label up">get it on</span>
+						<span class="button_store__button-label down">google play</span>
+					</span>
+				</a>
+			</div>
 		</div>
 	</header>
 </body>
