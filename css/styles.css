@@ -4,11 +4,13 @@ body{
 	font-family: OpenSans-Regular;
 }
 
+
 .header{
 	background-image: url(../img/football_767.jpg);
 	background-size: cover;
 
 	width: 100%;
+	min-width: 260px;
 	height: 568px;
 }
 .header:before{
@@ -18,23 +20,27 @@ body{
 	top: 0;
 	left: 0;
 	width: 100%;
+	min-width: 260px;
 	height: 568px;
 }
 
-.header__container{
+.header__container, .footer__container{
+	font-size: 28px;
+	position: relative;
+
 	display: flex;
 	flex-direction: column;
-	position: relative;
-	color: #fff;
-	text-transform: uppercase;
+
 	height: 100%;
+	text-transform: uppercase;
+	color: #fff;
 	justify-content: space-between;
-	font-size: 28px;
 }
+
 
 .logo-text{
 	width: 134px;
-	margin: 33px calc((100% - 134px)/2) 105px;
+	margin: 33px auto;
 	text-align: center;
 	filter: invert(100%);
 }
@@ -45,27 +51,243 @@ body{
 .header__slogan{
 	font-family: OpenSans-Bold;
 }
-.part-1{
+.header__slogan.part-1{
 	margin-left: 0.7em; /* 20px; */
 }
-.part-2{
+.header__slogan.part-2{
 	margin-top: 0.7em; /* 20px; */
 	margin-left: 2.3em; /* 65px */
 	margin-bottom: 3.4em; /* 95px */
 }
 
 
-.button_store
-{
+
+
+
+
+
+
+/*.athlets__image{
+	width: 320px;
+	height: 200px;
+	background-color: green;
+}*/
+
+.content__container{
+	min-width: 260px;
+}
+.content__block{}
+.block__title{
+	font-family: OpenSans-Bold;
+	font-size: 50px; /* занимает 68px */
+
+	padding-right: 6.25%;
+	padding-left: 6.25%;
+
+	text-transform: uppercase;
+
+	color: #e7e7e7;
+}
+.content__block.basketballer{
+	display: flex;
+	flex-direction: column;
+}
+.basketballer > .block__title{
+	order: -1;
+}
+
+.article{
+	padding-left: 6.25%;
+	padding-right: 6.25%;
+	padding-top: 55px;
+	padding-bottom: 55px;
+}
+.article__number{
+	font-family: OpenSans-Bold;
+	text-transform: uppercase;
+	border-bottom: 4px solid #5e42b0;
+	box-sizing: border-box;
+	font-size: 14px; /* занимает 23px */
+	float: left;
+	margin-right: 10px;
+	margin-top: 2px;
+}
+.article__title{
+	font-family: OpenSans-Bold;
+	font-size: 23px; /* занимает 32px */
+
+	margin-bottom: 25px;
+
+	text-transform: uppercase;
+
+	color: #c1c1c1;
+}
+
+.article__text{
+	font-size: 15px;
+}
+.article.part-1{
+	background-color: #fafafa;
+}
+.article.part-2{
+	background-color: #f5f4f9;
+}
+
+.block__image_sport{
+	position: relative;
+}
+#foolballer{
+	width: 180px;
+	height: 280px;
+	background-size: cover;
+	margin: 0 auto -50px;
+	background-image: url(../img/footballer_192.png);
+}
+#basketballer{
+	height: 247px;
+	background-repeat: no-repeat;
+	margin: 0 0 -30px 10px;
+	background-image: url(../img/basketballer_302.png);
+	width: 100%;
+}
+
+
+.border-col_white{
+	border-color: #fff;
+}
+
+.bg-col_dark-blue{
+	background-color: #090c35;
+}
+.bg-col_violet{
+	background-color: #5e42b0;
+}
+
+.txt-col_white{
+	color: #fff;
+}
+.txt-col_black{
+	color: #000;
+}
+.txt-col_lt-violet{
+	color: #7c5dce;
+}
+
+.square{
+	margin: 0;
+	padding: 0;
+	border-color: #8f7bc8;
+	color: #fff;
+}
+
+.article__number_square{
+	width: 70px;
+	height: 70px;
+	background-color: #5e42b0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+  top: 15px;
+}
+
+.article__title_down{
+	font-family: OpenSans-Bold;
+	font-size: 28px;
+
+	text-transform: uppercase;
+
+	color: #e7e7e7;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.block__image_about{
+	width: 100%;
+}
+
+.top-margin{
+	padding-top: 0;
+	margin-top: -75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	position: absolute;
+
+	width: 100%;
+	min-width: 260px;
+	height: 100%;
+	padding-top: 100px;
+
+	background-image: url(../img/game_767.jpg);
+	background-size: cover;
+}
+.footer:before{
+	content: "";
+	position: absolute;
+	background-color: rgba(8, 21, 66, .8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-width: 260px;
+	height: 100%;
+}
+
+.footer__logo{
+	margin: 0px calc((100% - 58px)/2) 55px;
+
+	width: 58px;
+	border-radius: 15px;
+	background-color: #5e42b0;
+	background: linear-gradient(#7756d7, #4f3799);
+	padding: 7px;
+}
+.logo{
+	width: 58px;	
+	filter: invert(100%);
+}
+
+
+.footer__slogan{
+	
+}
+.footer__slogan.part-1{
+	color: #fff;
+	font-size: 32px; /* занимает 43px */
+}
+.footer__slogan.part-2{
+	color: #9b8ec1;
+	font-size: 14px; /* занимает 19px */
+	margin-bottom: 73px;
+}
+
+
+.button_store{
 	font: inherit;
 	font-size: 10px; /* 10px ----- = 1em */
 
 	display: flex;
 
 	min-height: 3.5em;
-	margin-right: 2em;
+	max-width: 400px;
+	margin-right: 6.5%;
 	margin-bottom: 1.5em;
-	margin-left: 2em;
+	margin-left: 6.5%;
 	padding: 0;
 
 	text-decoration: none;
@@ -96,13 +318,35 @@ body{
 	flex-direction: column;
 }
 .button_store__button-label{
-	height: ;
 }
 .up{
 }
 .down{
 	font-family: OpenSans-Bold;
 }
+
+.footer__container > .logo-text{
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+@media screen and (min-width: 461px){
+	.button_store{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+/*	#foolballer{
+		width: 250px;
+		margin: 0 calc((100% - 250px)/2) -50px;
+	}
+	#basketballer{
+		width: 420px;
+		margin: 0 calc((100% - 420px)/2) -30px;
+	}*/
+}
+
+
 
 @font-face {
 	/*название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)*/ 

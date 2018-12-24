@@ -1,0 +1,127 @@
+@media screen and (min-width: 641px) and (max-width: 960px){
+
+	.logo-text{
+		width: 205px;
+	}
+
+	.header{
+		height: 958px;
+	}
+	.header:before{
+		height: 958px;
+	}
+
+	.header__container,
+	.footer__container{
+		font-size: 64px;
+	}
+
+	.header__slogan{
+		line-height: 1;
+	}
+	.header__slogan.part-1{
+		margin-left: 90px;
+	}
+	.header__slogan.part-2{
+		margin-top: 0;
+		margin-left: 200px;
+	}
+
+	.button_store{
+		height: 77px;
+		width: 310px;
+		font-size: 14px;
+	}
+	.button-store__button-icon{
+		width: 43px;
+		margin-right: 28px;
+	}
+	.button__container{
+		display: flex;
+	}
+	.button_store{
+		padding: 0;
+	}	
+	.button_store:first-child{
+		margin-right: 15px;
+	}
+	.button_store:last-child{
+		margin-left: 15px;
+	}
+
+
+
+
+
+
+
+	.block__title{
+		font-size: 80px;
+		margin-left: 293px;
+		padding: 0;
+	}
+	.article__number{
+		font-size: 18px;
+		margin-top: 5px;
+	}
+	.article{
+		padding-right: 33px;
+		padding-left: 293px;
+		padding-bottom: 44px;
+		padding-top: 44px;
+	}
+
+	.basketballer >.block__title{
+		margin-right: 355px;
+		margin-left: 33px;
+	}
+	.basketballer > .article{
+		padding-right: 355px;
+		padding-left: 32px;
+		padding-bottom: 40px;
+		padding-top: 45px;
+	}
+
+	.article__title{
+		font-size: 32px;
+	}
+	.article__text{
+		font-size: 16px;
+	}
+	.article.part-1{
+		background-color: #fff;
+	}
+
+	.content__block.basketballer{
+		display: flex;
+		flex-direction: column;
+	}
+	.basketballer > .block__title{
+		order: 0;
+	}
+
+	#foolballer{
+		height: 590px;
+		width: 405px;
+		background-image: url(../img/footballer_497.png);
+		margin-left: -140px;
+		margin-bottom: -645px;
+
+	}
+	#basketballer{
+		height: 565px;
+		width: 430px;
+		background-image: url(../img/basketballer_436.png);
+		margin-left: calc(100% - 430px);
+		margin-bottom: -571px;
+
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	.article__number_square{
+		width: 115px;
+		height: 115px;
+		top: 15px;
+	}
+}
