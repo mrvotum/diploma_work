@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: OpenSans-Regular;
+	width: 100vw;
 }
 
 
@@ -117,6 +118,7 @@ body{
 	font-size: 23px; /* занимает 32px */
 
 	margin-bottom: 25px;
+	margin-top: 0;
 
 	text-transform: uppercase;
 
@@ -148,7 +150,7 @@ body{
 	background-repeat: no-repeat;
 	margin: 0 0 -30px 10px;
 	background-image: url(../img/basketballer_302.png);
-	width: 100%;
+	width: 95%;
 }
 
 
@@ -231,7 +233,7 @@ body{
 
 	width: 100%;
 	min-width: 260px;
-	height: 100%;
+	/*height: 100%;*/
 	padding-top: 100px;
 
 	background-image: url(../img/game_767.jpg);
@@ -267,6 +269,7 @@ body{
 	
 }
 .footer__slogan.part-1{
+	font-family: OpenSans-Bold;
 	color: #fff;
 	font-size: 32px; /* занимает 43px */
 }
