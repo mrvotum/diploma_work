@@ -204,8 +204,8 @@ body{
 	margin-top: 30px;
 }
 
-.block__image_about{
-	width: 100%;
+.block__image_about > img{
+	width: 100vw;
 }
 
 .top-margin{

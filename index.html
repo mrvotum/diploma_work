@@ -84,7 +84,13 @@
 			</div>
 
 			<div class="content__block be-active">
-				<img src="img/be-active_640.jpg" alt="be active" class="block__image_about" id="be-active">
+				<picture class="block__image_about">
+					<source media="(max-width: 640px)" srcset="img/be-active.jpg">
+					<source media="(min-width: 641px) and (max-width: 960px)" srcset="img/be-active_640.jpg">
+					<source media="(min-width: 961px) and (max-width: 1920px)" srcset="img/be-active_960.jpg">
+					<source media="(mix-width: 1921px)" srcset="img/be-active_1024.jpg">
+					<img src="img/be-active.jpg" alt="be active" id="be-active">
+				</picture>
 				<div class="article top-margin">
 					<div class="article__number_square">
 						<h3 class="article__number square">01</h3>
@@ -93,8 +99,14 @@
 					<div class="article__text have-to-be">Post videos with your skills,<!-- <br> --> Like and follow others to be<!-- <br> --> more popular.</div>
 				</div>
 			</div>
-			<div class="content__block find-contact">
-				<img src="img/find-contact_640.jpg" alt="be active" class="block__image_about" id="find-contact">
+			<div class="content__block find-contact mirror">
+				<picture class="block__image_about">
+					<source media="(max-width: 640px)" srcset="img/find-contact.jpg">
+					<source media="(min-width: 641px) and (max-width: 960px)" srcset="img/find-contact_640.jpg">
+					<source media="(min-width: 961px) and (max-width: 1920px)" srcset="img/find-contact_960.jpg">
+					<source media="(mix-width: 1921px)" srcset="img/find-contact_1024.jpg">
+					<img src="img/find-contact.jpg" alt="find contact" id="find-contact">
+				</picture>				
 				<div class="article top-margin">
 					<div class="article__number_square">
 						<h3 class="article__number square">02</h3>
@@ -104,7 +116,13 @@
 				</div>
 			</div>
 			<div class="content__block work-it">
-				<img src="img/work-it_640.jpg" alt="be active" class="block__image_about" id="work-it">
+				<picture class="block__image_about">
+					<source media="(max-width: 640px)" srcset="img/work-it.jpg">
+					<source media="(min-width: 641px) and (max-width: 960px)" srcset="img/work-it_640.jpg">
+					<source media="(min-width: 961px) and (max-width: 1920px)" srcset="img/work-it_960.jpg">
+					<source media="(mix-width: 1921px)" srcset="img/work-it_1024.jpg">
+					<img src="img/work-it.jpg" alt="work it" id="work-it">
+				</picture>				
 				<div class="article top-margin">
 					<div class="article__number_square">
 						<h3 class="article__number square">03</h3>
@@ -119,11 +137,12 @@
 
 	<footer class="footer">
 		<div class="footer__container">
-			<div class="footer__logo"><img src="svg/surface_logo.svg" alt="surface" class="logo"></div>
-
-			<div class="slogan__container">
-				<div class="footer__slogan part-1">download app</div>
-				<div class="footer__slogan part-2">Show everyone what you can do!</div>
+			<div class="logo__wrapper">
+				<div class="footer__logo"><img src="svg/surface_logo.svg" alt="surface" class="logo"></div>
+				<div class="slogan__container">
+					<div class="footer__slogan part-1">download app</div>
+					<div class="footer__slogan part-2">Show everyone what you can do!</div>
+				</div>
 			</div>
 
 			<div class="button__container">
