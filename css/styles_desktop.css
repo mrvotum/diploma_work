@@ -133,6 +133,7 @@
 	.content__block.work-it{
 		display: flex;
 		flex-wrap: wrap;
+		margin-bottom: -5px;
 	}
 
 	.block__image_about{
