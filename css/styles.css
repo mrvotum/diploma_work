@@ -46,9 +46,6 @@ body{
 	filter: invert(100%);
 }
 
-.slogan__container{
-	align-self: center;
-}
 .header__slogan{
 	font-family: OpenSans-Bold;
 }
@@ -307,6 +304,9 @@ body{
 .button_store:last-child{
 	margin-bottom: 8.5em;
 }
+.button_store__content-wrapper{
+	display: flex;
+}
 .button-store__button-icon{
 	width: 2em;
 	display: inline-block;
@@ -332,6 +332,12 @@ body{
 	margin-bottom: 10px;
 	margin-top: 0px;
 }
+.footer__container  .slogan__container{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
 
 @media screen and (min-width: 461px){
 	.button_store{
@@ -347,6 +353,12 @@ body{
 		width: 420px;
 		margin: 0 calc((100% - 420px)/2) -30px;
 	}*/
+}
+
+@media screen and (max-width: 640px){
+	.button_store:last-child > .button_store__content-wrapper{
+		padding-right: 31px;
+	}
 }
 
 
