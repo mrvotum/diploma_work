@@ -183,8 +183,8 @@
 
 	.article__title_down,
 	.have-to-be{
-		margin-left: 130px /* 6.8vw; 130px*/
-		margin-right: 215px /* 11vw; 215px*/
+		margin-left: 130px; /* 6.8vw; 130px*/
+		margin-right: 215px; /* 11vw; 215px*/
 		margin-top: 0;
 	}
 
