@@ -24,6 +24,7 @@
 	.slogan__container{
 		margin: 0;
 		align-self: normal;
+		align-items: start !important;
 	}
 	.header__slogan{
 		line-height: 1;

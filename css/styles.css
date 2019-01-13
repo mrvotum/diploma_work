@@ -115,6 +115,7 @@ p{
 	float: left;
 	margin-right: 10px;
 	margin-top: 2px;
+	color: #000;
 }
 .article__title{
 	font-family: OpenSans-Bold;
@@ -269,7 +270,10 @@ p{
 
 
 .footer__slogan{
-	
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+	margin-right: 0;
 }
 .footer__slogan.part-1{
 	font-family: OpenSans-Bold;
