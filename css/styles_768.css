@@ -2,13 +2,7 @@
 
 	.logo-text{
 		width: 205px;
-	}
-
-	.header{
-		height: 958px;
-	}
-	.header:before{
-		height: 958px;
+		margin-bottom: 180px;
 	}
 
 	.header__container,
@@ -18,13 +12,16 @@
 
 	.header__slogan{
 		line-height: 1;
+		font-size: 64px;
 	}
 	.header__slogan.part-1{
 		margin-left: 90px;
+		margin-top: 0;
 	}
 	.header__slogan.part-2{
 		margin-top: 0;
 		margin-left: 200px;
+		margin-bottom: 310px;
 	}
 
 	.button_store{
