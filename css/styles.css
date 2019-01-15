@@ -48,7 +48,7 @@ p{
 	width: 134px;
 	margin: 33px auto;
 	text-align: center;
-	filter: invert(100%);
+	fill: #fff;
 }
 
 .header__slogan{
@@ -265,7 +265,7 @@ p{
 }
 .logo{
 	width: 58px;	
-	filter: invert(100%);
+	fill: #fff;
 }
 
 
@@ -324,7 +324,7 @@ p{
 }
 .button-icon{
 	width: 100%;
-	filter: invert(100%);
+	fill: #fff;
 }
 .button_store__wrapper{
 	display: flex;
@@ -373,7 +373,7 @@ p{
 
 @media screen and (min-width: 767px){
 	.button_store:hover{
-		background-color: #4D2BB0;
+		background-color: #7960c4;
 	}
 }
 
