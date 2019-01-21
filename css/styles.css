@@ -1,9 +1,11 @@
 body{
+	font-family: OpenSans-Regular;
+
+	position: relative;
+
+	width: 100vw;
 	margin: 0;
 	padding: 0;
-	font-family: OpenSans-Regular;
-	width: 100vw;
-	position: relative;
 }
 
 p{
@@ -12,34 +14,43 @@ p{
 
 
 .header{
-	background-image: url(../img/football_767.jpg);
-	background-size: cover;
+	position: relative;
 
 	width: 100%;
 	min-width: 260px;
-	position: relative;
+
+	background-image: url(../img/football_767.jpg);
+	background-size: cover;
 }
 .header:before{
-	content: "";
 	position: absolute;
-	background-color: rgba(8, 21, 66, .8);
 	top: 0;
 	left: 0;
+
 	width: 100%;
 	min-width: 260px;
 	height: 100%;
+
+	content: '';
+
+	background-color: rgba(8, 21, 66, .8);
 }
 
-.header__container, .footer__container{
+.header__container,
+.footer__container{
 	font-size: 28px;
+
 	position: relative;
 
 	display: flex;
 	flex-direction: column;
 
 	height: 100%;
+
 	text-transform: uppercase;
+
 	color: #fff;
+
 	justify-content: space-between;
 }
 
@@ -47,53 +58,41 @@ p{
 .logo-text{
 	width: 134px;
 	margin: 33px auto 0;
+
 	text-align: center;
+
 	fill: #fff;
 }
 
 .header__slogan{
 	font-family: OpenSans-Bold;
 	font-size: 28px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 280px;
 
-	
+	width: 280px;
+	margin-right: auto;
+	margin-left: auto;
 }
 .part-1,
 .part-2{
 	display: block;
 }
 .header__slogan > .part-1{
-	/*margin-left: 20px;*/
 	margin-top: 100px;
 }
 .header__slogan > .part-2{
 	margin-top: 20px;
-	padding-left: 14%;
 	margin-bottom: 95px;
+	padding-left: 14%;
 }
 
-
-
-
-
-
-
-
-/*.athlets__image{
-	width: 320px;
-	height: 200px;
-	background-color: green;
-}*/
 
 .content{
 	min-width: 260px;
 }
-.content__block{}
+
 .block__title{
 	font-family: OpenSans-Bold;
-	font-size: 50px; /* занимает 68px */
+	font-size: 50px;
 
 	padding-right: 6.25%;
 	padding-left: 6.25%;
@@ -111,28 +110,32 @@ p{
 }
 
 .article{
-	padding-left: 6.25%;
-	padding-right: 6.25%;
 	padding-top: 55px;
+	padding-right: 6.25%;
 	padding-bottom: 55px;
+	padding-left: 6.25%;
 }
 .article__number{
 	font-family: OpenSans-Bold;
-	text-transform: uppercase;
-	border-bottom: 4px solid #5e42b0;
-	box-sizing: border-box;
-	font-size: 14px; /* занимает 23px */
+	font-size: 14px;
+
 	float: left;
-	margin-right: 10px;
+
+	box-sizing: border-box;
 	margin-top: 2px;
+	margin-right: 10px;
+
+	text-transform: uppercase;
+
 	color: #000;
+	border-bottom: 4px solid #5e42b0;
 }
 .article__title{
 	font-family: OpenSans-Bold;
-	font-size: 23px; /* занимает 32px */
+	font-size: 23px;
 
-	margin-bottom: 25px;
 	margin-top: 0;
+	margin-bottom: 25px;
 
 	text-transform: uppercase;
 
@@ -152,19 +155,23 @@ p{
 .block__image_sport{
 	position: relative;
 }
+
+
 #foolballer{
 	width: 180px;
 	height: 280px;
-	background-size: cover;
 	margin: 0 auto -50px;
+
 	background-image: url(../img/footballer_192.png);
+	background-size: cover;
 }
 #basketballer{
-	height: 247px;
-	background-repeat: no-repeat;
-	margin: 0 0 -30px 10px;
-	background-image: url(../img/basketballer_302.png);
 	width: 95%;
+	height: 247px;
+	margin: 0 0 -30px 10px;
+
+	background-image: url(../img/basketballer_302.png);
+	background-repeat: no-repeat;
 }
 
 
@@ -192,30 +199,36 @@ p{
 .square{
 	margin: 0;
 	padding: 0;
-	border-color: #8f7bc8;
+
 	color: #fff;
+	border-color: #8f7bc8;
 }
 
 .article__number_square{
-	width: 70px;
-	height: 70px;
-	background-color: #5e42b0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	position: relative;
 	top: 15px;
+
+	display: flex;
+
+	width: 70px;
+	height: 70px;
+
+	background-color: #5e42b0;
+
+	justify-content: center;
+	align-items: center;
 }
 
 .article__title_down{
 	font-family: OpenSans-Bold;
 	font-size: 28px;
 
+	margin-top: 30px;
+	margin-bottom: 20px;
+
 	text-transform: uppercase;
 
 	color: #e7e7e7;
-	margin-bottom: 20px;
-	margin-top: 30px;
 }
 
 .block__image_about > img{
@@ -223,23 +236,9 @@ p{
 }
 
 .top-margin{
-	padding-top: 0;
 	margin-top: -75px;
+	padding-top: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .footer{
@@ -247,64 +246,69 @@ p{
 
 	width: 100%;
 	min-width: 260px;
-	/*height: 100%;*/
 	padding-top: 100px;
 
 	background-image: url(../img/game_767.jpg);
 	background-size: cover;
 }
 .footer:before{
-	content: "";
 	position: absolute;
-	background-color: rgba(8, 21, 66, .8);
 	top: 0;
 	left: 0;
+
 	width: 100%;
 	min-width: 260px;
 	height: 100%;
+
+	content: '';
+
+	background-color: rgba(8, 21, 66, .8);
 }
 
 .footer__logo{
-	margin: 0px calc((100% - 58px)/2) 55px;
-
 	width: 58px;
-	border-radius: 15px;
-	background-color: #5e42b0;
-	background: linear-gradient(#7756d7, #4f3799);
+	margin: 0 calc((100% - 58px)/2) 55px;
 	padding: 7px;
+
+	border-radius: 15px;
+	background: linear-gradient(#7756d7, #4f3799);
+	background-color: #5e42b0;
 }
 .logo{
-	width: 58px;	
+	width: 58px;
+
 	fill: #fff;
 }
 
 
 .footer__slogan{
 	margin-top: 0;
-	margin-left: 0;
-	margin-bottom: 0;
 	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
 }
 .footer__slogan.part-1{
 	font-family: OpenSans-Bold;
+	font-size: 32px;
 	color: #fff;
-	font-size: 32px; /* занимает 43px */
 }
 .footer__slogan.part-2{
-	color: #9b8ec1;
-	font-size: 14px; /* занимает 19px */
+	font-size: 14px;
+
 	margin-bottom: 73px;
+
+	color: #9b8ec1;
 }
 
 
 .button_store{
 	font: inherit;
-	font-size: 10px; /* 10px ----- = 1em */
+	font-size: 10px;
 
 	display: flex;
 
-	min-height: 3.5em;
 	max-width: 400px;
+	min-height: 3.5em;
 	margin-right: 6.5%;
 	margin-bottom: 1.5em;
 	margin-left: 6.5%;
@@ -328,64 +332,56 @@ p{
 	display: flex;
 }
 .button-store__button-icon{
-	width: 2em;
 	display: inline-block;
-	margin-right: 0.9em;
+
+	width: 2em;
+	margin-right: .9em;
 }
 .button-icon{
 	width: 100%;
+
 	fill: #fff;
 }
 .button_store__wrapper{
 	display: flex;
 	flex-direction: column;
 }
-.button_store__button-label{
-}
-.up{
-}
+
+
 .down{
 	font-family: OpenSans-Bold;
 }
 
 .footer__container > .logo-text{
+	margin-top: 0;
 	margin-bottom: 10px;
-	margin-top: 0px;
 }
 .footer__container  .slogan__container{
 	display: flex;
 	flex-direction: column;
+
 	align-content: center;
 	align-items: center;
 }
 
+
 @media screen and (min-width: 430px) and (max-width: 960px){
 	.header__slogan{
-	display: flex;
-	flex-direction: column;
+		display: flex;
+		flex-direction: column;
 
-	width: 87.5%;
+		width: 87.5%;
 
-	flex-wrap: wrap;
-	align-content: center;
-}
-
+		flex-wrap: wrap;
+		align-content: center;
+	}
 }
 
 @media screen and (min-width: 461px){
 	.button_store{
-		margin-left: auto;
 		margin-right: auto;
+		margin-left: auto;
 	}
-
-/*	#foolballer{
-		width: 250px;
-		margin: 0 calc((100% - 250px)/2) -50px;
-	}
-	#basketballer{
-		width: 420px;
-		margin: 0 calc((100% - 420px)/2) -30px;
-	}*/
 }
 
 @media screen and (max-width: 640px){
@@ -402,17 +398,17 @@ p{
 
 
 
-@font-face {
-	/*название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)*/ 
-	font-family: "OpenSans-Regular"; 
-	/*адрес шрифта и тип*/ 
-	src: url("../fonts/OpenSans-Regular.ttf") format("truetype"); 
-	font-style: normal; 
-	font-weight: normal; 
+@font-face{
+	font-family: 'OpenSans-Regular';
+	font-weight: normal;
+	font-style: normal;
+
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
 }
-@font-face {
-	font-family: "OpenSans-Bold";
-	src: url("../fonts/OpenSans-Bold.ttf") format("truetype"); 
-	font-style: normal; 
-	font-weight: normal; 
+@font-face{
+	font-family: 'OpenSans-Bold';
+	font-weight: normal;
+	font-style: normal;
+
+	src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
 }

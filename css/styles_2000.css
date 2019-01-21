@@ -1,8 +1,7 @@
-@media screen and (min-width: 1921px) {
-	
+@media screen and (min-width: 1921px){
 	body{
-		width: 100vw;
 		overflow-x: hidden;
+		width: 100vw;
 	}
 
 	.logo-text{
@@ -16,19 +15,22 @@
 	}
 
 	.header__container{
-		padding-left: 10vw;
-		padding-right: 10vw;
 		font-size: 90px;
+
+		padding-right: 10vw;
+		padding-left: 10vw;
 	}
-	
+
 	.slogan__container{
 		margin: 0;
+
 		align-self: normal;
 		align-items: start !important;
 	}
 	.header__slogan{
+		font-size: 4.7vw;
 		line-height: 1;
-		font-size: 4.7vw; /*90px*/
+
 		width: 100%;
 	}
 	.header__slogan > .part-1{
@@ -36,15 +38,17 @@
 	}
 	.header__slogan > .part-2{
 		margin: 0;
-		text-align: right;
 		margin-bottom: 225px;
+
+		text-align: right;
 	}
 
 
 	.button_store{
-		height: 77px;
-		width: 310px;
 		font-size: 14px;
+
+		width: 310px;
+		height: 77px;
 	}
 	.button-store__button-icon{
 		width: 43px;
@@ -55,7 +59,7 @@
 	}
 	.button_store{
 		padding: 0;
-	}	
+	}
 	.button_store:first-child{
 		margin-right: 15px;
 	}
@@ -78,28 +82,28 @@
 	}
 
 	.article{
-		padding-left: 52vw; /* 1000px */
+		padding-left: 52vw;
 	}
-	.article__text{
+	.article__text
+	{
 		font-size: 20px;
 	}
 
-	.basketballer >.block__title{
-		margin-right: 0px;
-		margin-left: 0px;
-		margin-bottom:0px;
-		margin-top: 122px; 
-
-		padding-right: 0px;
-		padding-left: 10vw; /*192px*/
-		padding-bottom:0px;
-		padding-top:0px; 
+	.basketballer > .block__title{
+		margin-top: 122px;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+		padding-top: 0;
+		padding-right: 0;
+		padding-bottom: 0;
+		padding-left: 10vw;
 	}
 	.basketballer > .article{
-		padding-right: 51vw; /* 980px; */
-		padding-left: 10vw; /* 192px; */
-		padding-bottom: 40px;
 		padding-top: 45px;
+		padding-right: 51vw;
+		padding-bottom: 40px;
+		padding-left: 10vw;
 	}
 
 	.content__block.basketballer{
@@ -112,81 +116,84 @@
 
 
 	#foolballer{
-		height: 906px;
-		width: 570px;
 		float: left;
-		background-image: url(../img/footballer_566.png);
-		margin-left: calc(50% - 570px);
+
+		width: 570px;
+		height: 906px;
 		margin-top: -190px;
+		margin-left: calc(50% - 570px);
+
+		background-image: url(../img/footballer_566.png);
 	}
 	#basketballer{
-		height: 815px;
-		width: 995px;
-		background-image: url(../img/basketballer_991.png);
-
 		position: absolute;
-    margin-left: 42vw; /*812px*/
+
+		width: 995px;
+		height: 815px;
+		margin-left: 42vw; /*812px*/
+
+		background-image: url(../img/basketballer_991.png);
 	}
 
 
 	.content__block.be-active,
 	.content__block.find-contact,
-	.content__block.work-it{
+	.content__block.work-it
+	{
 		display: flex;
-		flex-wrap: wrap;
+
 		margin-bottom: -5px;
+
+		flex-wrap: wrap;
 	}
 
 	.block__image_about{
 		width: 50%;
 	}
-		.block__image_about > img{
+	.block__image_about > img{
 		width: 100%;
 	}
 
 
 	.article__number_square{
-		width: 170px; /* 8.8vw;  170px */
-		/*max-width: 170px;*/
-		height: 155px; /* 8vw;  155px */
-		/*max-height: 155px;*/
-		
 		top: 8.6vw;
 		left: calc(-170px/2);
+
+		width: 170px;
+		height: 155px;
 	}
 	.article__number.square{
 		font-size: 24px;
+
 		margin-top: 0;
 	}
 
 	.article__title_down{
-		font-size: 4vw; /* 80px */
+		font-size: 4vw;
 	}
 
 	.have-to-be{
 		font-size: 24px;
 	}
-	
+
 	.top-margin{
-		margin-right: 0px;
-		margin-left: 0px;
-		margin-bottom: 0px;
-		margin-top: 0px; 
-
-		padding-right: 0;
-		padding-left: 0;
-		padding-bottom: 150px;
-		padding-top: 0;
-
-		width: 50%;
 		box-sizing: border-box;
+		width: 50%;
+		margin-top: 0;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+		padding-top: 0;
+		padding-right: 0;
+		padding-bottom: 150px;
+		padding-left: 0;
 	}
 
 	.article__title_down,
 	.have-to-be{
-		margin-left: 130px; /* 6.8vw; 130px*/
-		margin-right: 215px; /* 11vw; 215px*/
 		margin-top: 0;
+		margin-right: 215px;
+		margin-left: 130px;
 	}
 
 	.mirror > .block__image_about{
@@ -195,16 +202,13 @@
 
 	.mirror > .top-margin > .article__title_down,
 	.mirror > .top-margin > .have-to-be{
-		margin-left: 195px; /* 10vw; 195px */
-		margin-right: 133px; /* 7vw; /* 133px */
+		margin-right: 133px;
+		margin-left: 195px;
 	}
 
 	.mirror > .top-margin > .article__number_square{
 		left: calc(100vw/2 - 170px/2);
 	}
-
-		
-
 
 
 	.footer__container{
@@ -212,30 +216,27 @@
 	}
 	.footer{
 		height: 960px;
-
 		padding-top: 0;
 	}
 
 	.logo__wrapper{
 		display: flex;
+
 		margin-bottom: 140px;
+
 		justify-content: center;
 		align-items: center;
 	}
 
 	.footer__logo{
+		box-sizing: border-box;
+		width: 6.8vw;
+		height: 6.8vw;
 		margin: 0;
-
-		width: 6.8vw; /* 130px */
-		height: 6.8vw; /* 130px */
-
-		padding-left: 0.7vw; /* 13px */
-		padding-top: 0.8vw; /* 15px */
+		padding-top: 0.8vw;
 		padding-right: 0;
 		padding-bottom: 0;
-
-
-		box-sizing: border-box;
+		padding-left: 0.7vw;
 	}
 	.logo{
 		width: 5.5vw; /* 105px */
@@ -246,10 +247,10 @@
 		margin-left: 35px;
 	}
 	.footer__slogan.part-1{
-		font-size: 4.2vw; /* 80px */
+		font-size: 4.2vw;
 	}
 	.footer__slogan.part-2{
-		font-size: 1.6vw; /* 30px */
+		font-size: 1.6vw;
 		margin-bottom: 0;
 	}
 
@@ -257,7 +258,7 @@
 		margin-bottom: 52px;
 	}
 
-	.footer__container > .button__container >.button_store{
+	.footer__container > .button__container > .button_store{
 		margin-bottom: 260px;
 	}
 }

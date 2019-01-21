@@ -1,5 +1,4 @@
 @media screen and (min-width: 641px) and (max-width: 960px){
-
 	.logo-text{
 		width: 205px;
 		margin-bottom: 180px;
@@ -11,24 +10,25 @@
 	}
 
 	.header__slogan{
-		line-height: 1;
 		font-size: 64px;
+		line-height: 1;
+
 		width: 630px;
 	}
 	.header__slogan > .part-1{
-		/*margin-left: 90px;*/
 		margin-top: 0;
 	}
 	.header__slogan > .part-2{
 		margin-top: 0;
-		padding-left: 100px;
 		margin-bottom: 310px;
+		padding-left: 100px;
 	}
 
 	.button_store{
-		height: 77px;
-		width: 310px;
 		font-size: 14px;
+
+		width: 310px;
+		height: 77px;
 	}
 	.button-store__button-icon{
 		width: 43px;
@@ -39,7 +39,7 @@
 	}
 	.button_store{
 		padding: 0;
-	}	
+	}
 	.button_store:first-child{
 		margin-right: 15px;
 	}
@@ -48,13 +48,9 @@
 	}
 
 
-
-
-
-
-
 	.block__title{
 		font-size: 80px;
+
 		margin-left: 293px;
 		padding: 0;
 	}
@@ -63,21 +59,21 @@
 		margin-top: 5px;
 	}
 	.article{
-		padding-right: 33px;
-		padding-left: 293px;
-		padding-bottom: 44px;
 		padding-top: 44px;
+		padding-right: 33px;
+		padding-bottom: 44px;
+		padding-left: 293px;
 	}
 
-	.basketballer >.block__title{
+	.basketballer > .block__title{
 		margin-right: 355px;
 		margin-left: 33px;
 	}
 	.basketballer > .article{
-		padding-right: 355px;
-		padding-left: 32px;
-		padding-bottom: 40px;
 		padding-top: 45px;
+		padding-right: 355px;
+		padding-bottom: 40px;
+		padding-left: 32px;
 	}
 
 	.article__title{
@@ -98,46 +94,45 @@
 		order: 0;
 	}
 
-	#foolballer{
-		height: 590px;
-		width: 405px;
-		background-image: url(../img/footballer_497.png);
-		margin-left: -140px;
-		margin-bottom: -645px;
 
+	#foolballer{
+		width: 405px;
+		height: 590px;
+		margin-bottom: -645px;
+		margin-left: -140px;
+
+		background-image: url(../img/footballer_497.png);
 	}
 	#basketballer{
-		height: 565px;
 		width: 430px;
-		background-image: url(../img/basketballer_436.png);
-		margin-left: calc(100% - 430px);
+		height: 565px;
 		margin-bottom: -571px;
+		margin-left: calc(100% - 430px);
 
-		background-size: contain;
+		background-image: url(../img/basketballer_436.png);
 		background-repeat: no-repeat;
+		background-size: contain;
 	}
 
 	.article__title_down{
-		/*font-size: 80px;*/
 		font-size: 10vw;
 		margin: 0;
 	}
 	.article__number_square{
+		top: 0;
+
 		width: 115px;
 		height: 115px;
-
-		top: 0;
 	}
 
 	.top-margin{
-		margin-left: 0;
+		margin-top: -78px;
 		margin-right: 0;
 		margin-bottom: 0;
-
-		padding-left: 32px;
+		margin-left: 0;
 		padding-right: 78px;
 		padding-bottom: 100px;
-		margin-top: -78px;
+		padding-left: 32px;
 	}
 
 	.have-to-be{
@@ -145,50 +140,33 @@
 	}
 
 
-
-
-
-
-
-
-
 	.footer__container{
 		justify-content: flex-end;
 	}
 	.footer{
 		height: 960px;
-
 		padding-top: 0;
 	}
 
 	.footer__logo{
-		margin: 0px auto 85px;
-
+		box-sizing: border-box;
 		width: 130px;
 		height: 130px;
-
-		padding-left: 13px;
+		margin: 0 auto 85px;
 		padding-top: 15px;
 		padding-right: 0;
 		padding-bottom: 0;
-
-
-		box-sizing: border-box;
+		padding-left: 13px;
 	}
 	.logo{
 		width: 105px;
 	}
 
 
-	.footer__slogan{
-		
-	}
 	.footer__slogan.part-1{
-		/*font-size: 80px;*/
 		font-size: 10vw;
 	}
 	.footer__slogan.part-2{
-		/*font-size: 36px;*/
 		font-size: 4.7vw;
 		margin-bottom: 285px;
 	}
@@ -197,7 +175,7 @@
 		margin-bottom: 23px;
 	}
 
-	.footer__container > .button__container >.button_store{
+	.footer__container > .button__container > .button_store{
 		margin-bottom: 55px;
 	}
 }
