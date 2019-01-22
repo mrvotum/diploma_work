@@ -208,13 +208,13 @@
 		justify-content: flex-end;
 	}
 	.footer{
-		height: 960px;
 		padding-top: 0;
 	}
 
 	.logo__wrapper{
 		display: flex;
-
+		
+		margin-top: 230px;
 		margin-bottom: 140px;
 
 		justify-content: center;

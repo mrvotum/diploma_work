@@ -330,6 +330,7 @@ p{
 }
 .button_store__content-wrapper{
 	display: flex;
+	align-items: center;
 }
 .button-store__button-icon{
 	display: inline-block;
